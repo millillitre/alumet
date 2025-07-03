@@ -1,5 +1,5 @@
 [workspace]
-resolver = "2"
+resolver = "3"
 members = [
     "agent",
     "alumet",
@@ -13,6 +13,7 @@ members = [
     "plugin-energy-estimation-tdp",
     "plugin-grace-hopper",
     "plugin-influxdb",
+    "plugin-kwollect-input",
     "plugin-kwollect-output",
     "plugin-mongodb",
     "plugin-nvidia-nvml",
@@ -24,6 +25,7 @@ members = [
     "plugin-relay",
     "plugin-socket-control",
     "plugin-mongodb",
+    "plugin-elasticsearch",
     "test-dynamic-plugins", 
 ]
 
