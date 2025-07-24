@@ -51,6 +51,7 @@ fn load_plugins_metadata() -> Vec<PluginMetadata> {
             plugin_procfs::ProcfsPlugin,
             plugin_nvidia_nvml::NvmlPlugin,
             plugin_nvidia_jetson::JetsonPlugin,
+	    plugin_quarch::QuarchPlugin,
         ]);
     }
 
