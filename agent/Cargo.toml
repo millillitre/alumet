@@ -31,7 +31,6 @@ plugin-energy-attribution = { path = "../plugin-energy-attribution" }
 plugin-energy-estimation-tdp = { path = "../plugin-energy-estimation-tdp" }
 plugin-elasticsearch = { path = "../plugin-elasticsearch" }
 plugin-kwollect-output = { path = "../plugin-kwollect-output" }
-plugin-quarch = { version = "0.1.0", path = "../plugin-quarch" }
 
 # Linux-only dependencies
 [target.'cfg(target_os = "linux")'.dependencies]
@@ -43,6 +42,7 @@ plugin-nvidia-nvml = { path = "../plugin-nvidia-nvml" }
 plugin-perf = { path = "../plugin-perf" }
 plugin-procfs = { path = "../plugin-procfs" }
 plugin-rapl = { path = "../plugin-rapl" }
+plugin-quarch = { version = "0.1.0", path = "../plugin-quarch" }
 plugin-socket-control = { path = "../plugin-socket-control" }
 
 [[bin]]
