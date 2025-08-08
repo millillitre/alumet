@@ -2709,7 +2709,7 @@ dependencies = [
  "log",
  "serde",
  "tempfile",
- "toml",
+ "toml 0.8.22",
 ]
 
 [[package]]
