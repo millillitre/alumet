@@ -50,6 +50,7 @@ Raffin
 RAPL
 regen
 rustfmt
+SCPI
 slurm
 slurmstep
 slurmstepd
